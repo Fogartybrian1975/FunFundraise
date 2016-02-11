@@ -1,5 +1,6 @@
 package com.brianf.games.configuration;
 //making a simple addition Brian
+///second chance commit
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
