@@ -31,5 +31,17 @@ public class MainController extends AbstractController {
 	public String loginPage() {
 		return "login";
 	}
-
+	
+	@RequestMapping(value = "/golf", method = RequestMethod.GET)
+	public String golfPage() {
+		return "golf";
+	}
+	@RequestMapping(value = "/memberAdmin", method = RequestMethod.GET)
+	public String memberAdmin() {
+		return "memberAdmin";
+	}
+	@RequestMapping(value = "/leaderBoard", method = RequestMethod.GET)
+	public String leaderBoard() {
+		return "leaderBoard";
+	}
 }
